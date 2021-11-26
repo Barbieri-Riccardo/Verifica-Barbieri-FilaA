@@ -6,9 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./second-component.component.css']
 })
 export class SecondComponentComponent implements OnInit {
-
-  constructor() { }
-
+  burzum:string;
+  constructor() { 
+    this.burzum = "secondo"
+  }
+    
   ngOnInit(): void {
   }
 
